@@ -32936,11 +32936,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Desktop\\testmauiproject\\testmauiproject\\testmauiproject.csproj",
+      "projectUniqueName": "C:\\Desktop\\lobbydirectoryapp\\testmauiproject\\testmauiproject.csproj",
       "projectName": "testmauiproject",
-      "projectPath": "C:\\Desktop\\testmauiproject\\testmauiproject\\testmauiproject.csproj",
+      "projectPath": "C:\\Desktop\\lobbydirectoryapp\\testmauiproject\\testmauiproject.csproj",
       "packagesPath": "C:\\Users\\masla\\.nuget\\packages\\",
-      "outputPath": "C:\\Desktop\\testmauiproject\\testmauiproject\\obj\\",
+      "outputPath": "C:\\Desktop\\lobbydirectoryapp\\testmauiproject\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

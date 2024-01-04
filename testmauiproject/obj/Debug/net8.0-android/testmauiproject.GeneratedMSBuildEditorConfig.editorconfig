@@ -12,41 +12,41 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = testmauiproject
-build_property.ProjectDir = C:\Desktop\testmauiproject\testmauiproject\
+build_property.ProjectDir = C:\Desktop\lobbydirectoryapp\testmauiproject\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Desktop/testmauiproject/testmauiproject/AboutPage.xaml]
+[C:/Desktop/lobbydirectoryapp/testmauiproject/AboutPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = testmauiproject.AboutPage.xaml
 build_metadata.AdditionalFiles.TargetPath = AboutPage.xaml
 build_metadata.AdditionalFiles.RelativePath = AboutPage.xaml
 
-[C:/Desktop/testmauiproject/testmauiproject/App.xaml]
+[C:/Desktop/lobbydirectoryapp/testmauiproject/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = testmauiproject.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Desktop/testmauiproject/testmauiproject/AppShell.xaml]
+[C:/Desktop/lobbydirectoryapp/testmauiproject/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = testmauiproject.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Desktop/testmauiproject/testmauiproject/MainPage.xaml]
+[C:/Desktop/lobbydirectoryapp/testmauiproject/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = testmauiproject.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Desktop/testmauiproject/testmauiproject/Resources/Styles/Colors.xaml]
+[C:/Desktop/lobbydirectoryapp/testmauiproject/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = testmauiproject.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Desktop/testmauiproject/testmauiproject/Resources/Styles/Styles.xaml]
+[C:/Desktop/lobbydirectoryapp/testmauiproject/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = testmauiproject.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

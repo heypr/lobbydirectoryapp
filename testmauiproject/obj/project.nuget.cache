@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KyfoUJkuCWCGtuP9pWM3okAAbqv3tqp/vkUMhsSFAHOWqwrRkMdWtvrXyFFPSDc5amvR602Vh36+sxWNC39+Dg==",
+  "dgSpecHash": "/whBnVYTXdsoyk1m2NtnIHLRu5TR51xU2uYBX9gyjPdPX6WUh6RVKpzrNhQsd8NngDdllc/VqYUM+Bmhs/tCjg==",
   "success": true,
-  "projectFilePath": "C:\\Desktop\\testmauiproject\\testmauiproject\\testmauiproject.csproj",
+  "projectFilePath": "C:\\Desktop\\lobbydirectoryapp\\testmauiproject\\testmauiproject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\masla\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\masla\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
