@@ -1,1 +1,1 @@
-C:\Desktop\lobbydirectoryapp\testmauiproject\testmauiproject.csproj;x64
+C:\Users\kaleb\Desktop\projects\lobbydirectoryapp\testmauiproject\testmauiproject.csproj;x64
