@@ -18,6 +18,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = testmauiproject.AboutPage.
 build_metadata.AdditionalFiles.TargetPath = AboutPage.xaml
 build_metadata.AdditionalFiles.RelativePath = AboutPage.xaml
 
+[C:/Users/kaleb/Desktop/projects/lobbydirectoryapp/testmauiproject/Amenities.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = testmauiproject.Amenities.xaml
+build_metadata.AdditionalFiles.TargetPath = Amenities.xaml
+build_metadata.AdditionalFiles.RelativePath = Amenities.xaml
+
 [C:/Users/kaleb/Desktop/projects/lobbydirectoryapp/testmauiproject/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = testmauiproject.App.xaml
@@ -29,6 +35,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = testmauiproject.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/kaleb/Desktop/projects/lobbydirectoryapp/testmauiproject/Leasing.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = testmauiproject.Leasing.xaml
+build_metadata.AdditionalFiles.TargetPath = Leasing.xaml
+build_metadata.AdditionalFiles.RelativePath = Leasing.xaml
 
 [C:/Users/kaleb/Desktop/projects/lobbydirectoryapp/testmauiproject/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
