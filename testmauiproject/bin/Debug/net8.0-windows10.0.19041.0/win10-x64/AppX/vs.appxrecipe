@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\kaleb\Desktop\projects\lobbydirectoryapp\testmauiproject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-08T02:17:08.408</Modified>
+      <Modified>2024-01-08T02:34:45.943</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\kaleb\Desktop\projects\lobbydirectoryapp\testmauiproject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-01-08T02:17:08.288</Modified>
+      <Modified>2024-01-08T02:34:45.840</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kaleb\Desktop\projects\lobbydirectoryapp\testmauiproject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\testmauiproject.runtimeconfig.json">
       <PackagePath>testmauiproject.runtimeconfig.json</PackagePath>
-      <Modified>2024-01-07T06:32:24.644</Modified>
+      <Modified>2024-01-08T02:33:29.183</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kaleb\Desktop\projects\lobbydirectoryapp\testmauiproject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\testmauiproject.dll">
       <PackagePath>testmauiproject.dll</PackagePath>
-      <Modified>2024-01-08T02:17:07.993</Modified>
+      <Modified>2024-01-08T02:34:45.592</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kaleb\Desktop\projects\lobbydirectoryapp\testmauiproject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>testmauiproject.exe</PackagePath>
-      <Modified>2024-01-08T02:17:08.005</Modified>
+      <Modified>2024-01-08T02:34:45.597</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kaleb\Desktop\projects\lobbydirectoryapp\testmauiproject\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -303,7 +303,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kaleb\Desktop\projects\lobbydirectoryapp\testmauiproject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\testmauiproject.deps.json">
       <PackagePath>testmauiproject.deps.json</PackagePath>
-      <Modified>2024-01-08T00:34:47.579</Modified>
+      <Modified>2024-01-08T02:33:29.081</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kaleb\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
