@@ -1,1 +1,4 @@
-.vs/
+testmauiproject\bin
+testmauiproject\obj
+.vs
+.vs/testmauiproject/v17/.suo

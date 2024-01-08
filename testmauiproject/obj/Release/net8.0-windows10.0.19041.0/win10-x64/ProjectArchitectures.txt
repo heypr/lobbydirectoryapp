@@ -1,1 +1,0 @@
-C:\Desktop\lobbydirectoryapp\testmauiproject\testmauiproject.csproj;x64
