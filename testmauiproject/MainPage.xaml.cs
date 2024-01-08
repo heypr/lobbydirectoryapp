@@ -1,4 +1,7 @@
-﻿namespace testmauiproject
+﻿using Microsoft.Maui;
+using Microsoft.Maui.Handlers;
+
+namespace testmauiproject
 {
     public partial class MainPage : ContentPage
     {

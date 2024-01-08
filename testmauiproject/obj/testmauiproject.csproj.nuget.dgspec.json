@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kaleb\\Desktop\\projects\\lobbydirectoryapp\\testmauiproject\\testmauiproject.csproj": {}
+    "C:\\Desktop\\lobbydirectoryapp\\testmauiproject\\testmauiproject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kaleb\\Desktop\\projects\\lobbydirectoryapp\\testmauiproject\\testmauiproject.csproj": {
+    "C:\\Desktop\\lobbydirectoryapp\\testmauiproject\\testmauiproject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kaleb\\Desktop\\projects\\lobbydirectoryapp\\testmauiproject\\testmauiproject.csproj",
+        "projectUniqueName": "C:\\Desktop\\lobbydirectoryapp\\testmauiproject\\testmauiproject.csproj",
         "projectName": "testmauiproject",
-        "projectPath": "C:\\Users\\kaleb\\Desktop\\projects\\lobbydirectoryapp\\testmauiproject\\testmauiproject.csproj",
-        "packagesPath": "C:\\Users\\kaleb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kaleb\\Desktop\\projects\\lobbydirectoryapp\\testmauiproject\\obj\\",
+        "projectPath": "C:\\Desktop\\lobbydirectoryapp\\testmauiproject\\testmauiproject.csproj",
+        "packagesPath": "C:\\Users\\masla\\.nuget\\packages\\",
+        "outputPath": "C:\\Desktop\\lobbydirectoryapp\\testmauiproject\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\kaleb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\masla\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
