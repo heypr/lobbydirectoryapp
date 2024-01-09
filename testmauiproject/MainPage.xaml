@@ -1,28 +1,51 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
              x:Class="testmauiproject.MainPage">
 
     <VerticalStackLayout Padding="30,0" Spacing="25" BackgroundColor="Black">
         <!-- Your Labels -->
         <Label
-            Text="Welcome to South Park&#10;Center Building T!"
+            Text="South Park Center&#10;Building T"
             Style="{StaticResource Headline}"
-            HorizontalOptions="Start"
+            HorizontalOptions="StartAndExpand"
+            HorizontalTextAlignment="Start"
+            FontSize="90"
             SemanticProperties.HeadingLevel="Level1"
             SemanticProperties.Description="Welcome text."
-            Scale="1.08"
+            Scale="1.07"
             TextColor="Cornsilk"
             />
-
+        <Border
+            Scale="5"
+            />
         <Label
-            Text="Second line here!"
+            Text="9400 SouthPark &#10;Center Loop"
             Style="{StaticResource Headline}"
-            HorizontalTextAlignment="Center"
+            HorizontalOptions="CenterAndExpand"
+            HorizontalTextAlignment="Start"
+            FontSize="50"
+            TranslationX="235"
+            TranslationY="-180"
             SemanticProperties.HeadingLevel="Level2"
-            Scale="2"
-            TextColor="White"/>
+            SemanticProperties.Description="Welcome text."
+            Scale="1.1"
+            TextColor="AntiqueWhite"
+            />
+        <Border
+            Scale="5"
+            TranslationY="-90"
+            />
 
+        <Label 
+            Text="{Binding CurrentDateTime}"
+            FontSize="50"
+            TextColor="White"
+            HorizontalOptions="Start"
+            TranslationX="50"
+            TranslationY="-50"
+            />
         <!-- Grid for button layout -->
         <Grid
             x:Name="Buttons"

@@ -1,3 +1,5 @@
 testmauiproject/bin
 testmauiproject/obj
 .vs/
+.vs/testmauiproject/v17/.suo
+testmauiproject/testmauiproject.csproj

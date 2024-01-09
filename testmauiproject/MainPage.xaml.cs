@@ -8,6 +8,7 @@ namespace testmauiproject
         public MainPage()
         {
             InitializeComponent();
+            BindingContext = new TimeViewModel();
         }
 
         private async void OnNavigateButtonClicked(object sender, EventArgs e)
