@@ -11,8 +11,9 @@ namespace testmauiproject
                 .UseMauiApp<App>()
                 .ConfigureFonts(fonts =>
                 {
-                    fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-                    fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("ABCWalterNeue-Mager.ttf", "WalterNeue-Mager");
+                    fonts.AddFont("ABCWalterNeue-Mittel.ttf", "WalterNeue-Mittel");
+                    fonts.AddFont("ABCWalterNeue-Normal.ttf", "WalterNeue-Normal");
                 });
 
 #if DEBUG

@@ -6,6 +6,10 @@
 
     <VerticalStackLayout Padding="30,0" Spacing="25" BackgroundColor="Black">
         <!-- Your Labels -->
+        <Image 
+            Source="lincoln_logo_yellow.png"
+            />
+
         <Label
             Text="South Park Center&#10;Building T"
             Style="{StaticResource Headline}"
@@ -15,37 +19,33 @@
             SemanticProperties.HeadingLevel="Level1"
             SemanticProperties.Description="Welcome text."
             Scale="1.07"
-            TextColor="Cornsilk"
+            TextColor="White"
             />
-        <Border
-            Scale="5"
-            />
+
         <Label
             Text="9400 SouthPark &#10;Center Loop"
             Style="{StaticResource Headline}"
+            FontFamily="WalterNeue-Normal"
+            TextColor="White"
             HorizontalOptions="CenterAndExpand"
             HorizontalTextAlignment="Start"
             FontSize="50"
             TranslationX="235"
-            TranslationY="-180"
+            TranslationY="-150"
             SemanticProperties.HeadingLevel="Level2"
             SemanticProperties.Description="Welcome text."
             Scale="1.1"
-            TextColor="AntiqueWhite"
             />
-        <Border
-            Scale="5"
-            TranslationY="-90"
-            />
-
+        
         <Label 
             Text="{Binding CurrentDateTime}"
+            TextColor="#FFCA00"
             FontSize="50"
-            TextColor="White"
             HorizontalOptions="Start"
-            TranslationX="50"
-            TranslationY="-50"
+            TranslationX="10"
+            TranslationY="-80"
             />
+        
         <!-- Grid for button layout -->
         <Grid
             x:Name="Buttons"
@@ -56,67 +56,270 @@
 
             <Grid.RowDefinitions>
                 <!-- Define 10 rows -->
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
+                <RowDefinition 
+                    Height="Auto" 
+                    />
+                <RowDefinition 
+                    Height="Auto" 
+                    />
+                <RowDefinition 
+                    Height="Auto" 
+                    />
+                <RowDefinition 
+                    Height="Auto" 
+                    />
+                <RowDefinition 
+                    Height="Auto" 
+                    />
+                <RowDefinition 
+                    Height="Auto" 
+                    />
+                <RowDefinition 
+                    Height="Auto" 
+                    />
+                <RowDefinition 
+                    Height="Auto" 
+                    />
+                <RowDefinition 
+                    Height="Auto" 
+                    />
+                <RowDefinition 
+                    Height="Auto" 
+                    />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <!-- Define four columns (two for buttons, two for gaps) -->
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition 
+                    Width="*" 
+                    />
+                <ColumnDefinition 
+                    Width="Auto" 
+                    />
                 <!-- Gap -->
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition 
+                    Width="*" 
+                    />
+                <ColumnDefinition 
+                    Width="Auto" 
+                    />
                 <!-- Gap -->
             </Grid.ColumnDefinitions>
 
             <!-- Define Buttons -->
             <!-- Row 0 -->
-            <Button IsVisible="True" Grid.Row="0" Grid.Column="0" Text="Leasing Information" Clicked="OnNavigateButtonClicked" WidthRequest="400" HeightRequest="60"/>
-            <Button IsVisible="True" Grid.Row="0" Grid.Column="2" Text="Local Amenities" Clicked="OnNavigateButtonClicked" WidthRequest="400" HeightRequest="60"/>
+            <Button 
+                IsVisible="True" 
+                Grid.Row="0" 
+                Grid.Column="0" 
+                Text="Leasing Information" 
+                TextColor="Black" 
+                Clicked="OnNavigateButtonClicked" 
+                WidthRequest="400" 
+                HeightRequest="60"
+                BackgroundColor="White"
+                />
+            
+            <Button 
+                IsVisible="True" 
+                Grid.Row="0" 
+                Grid.Column="2" 
+                Text="Local Amenities" 
+                TextColor="Black"
+                Clicked="OnNavigateButtonClicked" 
+                WidthRequest="400"  
+                HeightRequest="60"
+                BackgroundColor="White" 
+                />
 
             <!-- Row 1 -->
-            <Button IsVisible="False" Grid.Row="1" Grid.Column="0" Text="Tenant 1 1st floor" Clicked="OnNavigateButtonClicked" WidthRequest="400" HeightRequest="40"/>
-            <Button IsVisible="False" Grid.Row="1" Grid.Column="2" Text="Tenant 2 1st floor" Clicked="OnNavigateButtonClicked" WidthRequest="400" HeightRequest="40"/>
+            <Button 
+                IsVisible="False" 
+                Grid.Row="1" 
+                Grid.Column="0" 
+                Text="Tenant 1 1st floor" 
+                Clicked="OnNavigateButtonClicked" 
+                WidthRequest="400" 
+                HeightRequest="40"
+                />
+            
+            <Button 
+                IsVisible="False" 
+                Grid.Row="1" 
+                Grid.Column="2" 
+                Text="Tenant 2 1st floor" 
+                Clicked="OnNavigateButtonClicked" 
+                WidthRequest="400" 
+                HeightRequest="40"
+                />
             
             <!-- Row 2 -->
-            <Button IsVisible="False" Grid.Row="2" Grid.Column="0" Text="Tenant 3 1st floor" Clicked="OnNavigateButtonClicked" WidthRequest="400" HeightRequest="40"/>
-            <Button IsVisible="False" Grid.Row="2" Grid.Column="2" Text="Tenant 4 1st floor" Clicked="OnNavigateButtonClicked" WidthRequest="400" HeightRequest="40"/>
+            <Button 
+                IsVisible="False" 
+                Grid.Row="2" 
+                Grid.Column="0" 
+                Text="Tenant 3 1st floor" 
+                Clicked="OnNavigateButtonClicked" 
+                WidthRequest="400" 
+                HeightRequest="40"
+                />
+            
+            <Button 
+                IsVisible="False" 
+                Grid.Row="2" 
+                Grid.Column="2" 
+                Text="Tenant 4 1st floor" 
+                Clicked="OnNavigateButtonClicked" 
+                WidthRequest="400" 
+                HeightRequest="40"
+                />
             
             <!-- Row 3 -->
-            <Button IsVisible="False" Grid.Row="3" Grid.Column="0" Text="Tenant 5 2st floor" Clicked="OnNavigateButtonClicked" WidthRequest="400" HeightRequest="40"/>
-            <Button IsVisible="False" Grid.Row="3" Grid.Column="2" Text="Tenant 6 2st floor" Clicked="OnNavigateButtonClicked" WidthRequest="400" HeightRequest="40"/>
+            <Button 
+                IsVisible="False" 
+                Grid.Row="3" 
+                Grid.Column="0" 
+                Text="Tenant 5 2st floor" 
+                Clicked="OnNavigateButtonClicked" 
+                WidthRequest="400" 
+                HeightRequest="40"
+                />
+            
+            <Button 
+                IsVisible="False" 
+                Grid.Row="3" 
+                Grid.Column="2" 
+                Text="Tenant 6 2st floor" 
+                Clicked="OnNavigateButtonClicked" 
+                WidthRequest="400" 
+                HeightRequest="40"
+                />
 
             <!-- Row 4 -->
-            <Button IsVisible="False" Grid.Row="4" Grid.Column="0" Text="Tenant 7 2st floor" Clicked="OnNavigateButtonClicked" WidthRequest="400" HeightRequest="40"/>
-            <Button IsVisible="False" Grid.Row="4" Grid.Column="2" Text="Tenant 8 2st floor" Clicked="OnNavigateButtonClicked" WidthRequest="400" HeightRequest="40"/>
+            <Button 
+                IsVisible="False" 
+                Grid.Row="4" 
+                Grid.Column="0" 
+                Text="Tenant 7 2st floor" 
+                Clicked="OnNavigateButtonClicked" 
+                WidthRequest="400" 
+                HeightRequest="40"
+                />
+            
+            <Button
+                IsVisible="False" 
+                Grid.Row="4" 
+                Grid.Column="2" 
+                Text="Tenant 8 2st floor" 
+                Clicked="OnNavigateButtonClicked" 
+                WidthRequest="400" 
+                HeightRequest="40"
+                />
 
             <!-- Row 5 -->
-            <Button IsVisible="False" Grid.Row="5" Grid.Column="0" Text="Tenant 9 3rd floor" Clicked="OnNavigateButtonClicked" WidthRequest="400" HeightRequest="40"/>
-            <Button IsVisible="False" Grid.Row="5" Grid.Column="2" Text="Tenant 10 3rd floor" Clicked="OnNavigateButtonClicked" WidthRequest="400" HeightRequest="40"/>
+            <Button 
+                IsVisible="False" 
+                Grid.Row="5" 
+                Grid.Column="0" 
+                Text="Tenant 9 3rd floor" 
+                Clicked="OnNavigateButtonClicked" 
+                WidthRequest="400" 
+                HeightRequest="40"
+                />
+            
+            <Button 
+                IsVisible="False" 
+                Grid.Row="5" 
+                Grid.Column="2" 
+                Text="Tenant 10 3rd floor" 
+                Clicked="OnNavigateButtonClicked" 
+                WidthRequest="400" 
+                HeightRequest="40"
+                />
 
             <!-- Row 6 -->
-            <Button IsVisible="False" Grid.Row="6" Grid.Column="0" Text="Tenant 11 3rd Floor" Clicked="OnNavigateButtonClicked" WidthRequest="400" HeightRequest="40"/>
-            <Button IsVisible="False" Grid.Row="6" Grid.Column="2" Text="Tenant 12 3rd Floor" Clicked="OnNavigateButtonClicked" WidthRequest="400" HeightRequest="40"/>
+            <Button 
+                IsVisible="False" 
+                Grid.Row="6" 
+                Grid.Column="0" 
+                Text="Tenant 11 3rd Floor" 
+                Clicked="OnNavigateButtonClicked" 
+                WidthRequest="400" 
+                HeightRequest="40"
+                />
+            
+            <Button 
+                IsVisible="False" 
+                Grid.Row="6" 
+                Grid.Column="2" 
+                Text="Tenant 12 3rd Floor" 
+                Clicked="OnNavigateButtonClicked" 
+                WidthRequest="400" 
+                HeightRequest="40"
+                />
 
             <!-- Row 7 -->
-            <Button IsVisible="False" Grid.Row="7" Grid.Column="0" Text="Tenant 13 4th Floor" Clicked="OnNavigateButtonClicked" WidthRequest="400" HeightRequest="40"/>
-            <Button IsVisible="False" Grid.Row="7" Grid.Column="2" Text="Tenant 14 4th Floor" Clicked="OnNavigateButtonClicked" WidthRequest="400" HeightRequest="40"/>
+            <Button 
+                IsVisible="False" 
+                Grid.Row="7" 
+                Grid.Column="0" 
+                Text="Tenant 13 4th Floor" 
+                Clicked="OnNavigateButtonClicked" 
+                WidthRequest="400" 
+                HeightRequest="40"
+                />
+            
+            <Button 
+                IsVisible="False" 
+                Grid.Row="7" 
+                Grid.Column="2" 
+                Text="Tenant 14 4th Floor" 
+                Clicked="OnNavigateButtonClicked" 
+                WidthRequest="400" 
+                HeightRequest="40"
+                />
 
             <!-- Row 8 -->
-            <Button IsVisible="False" Grid.Row="8" Grid.Column="0" Text="Tenant 15 4th Floor" Clicked="OnNavigateButtonClicked" WidthRequest="400" HeightRequest="40"/>
-            <Button IsVisible="False" Grid.Row="8" Grid.Column="2" Text="Tenant 16 4th Floor" Clicked="OnNavigateButtonClicked" WidthRequest="400" HeightRequest="40"/>
+            <Button 
+                IsVisible="False" 
+                Grid.Row="8" 
+                Grid.Column="0" 
+                Text="Tenant 15 4th Floor" 
+                Clicked="OnNavigateButtonClicked"
+                WidthRequest="400" 
+                HeightRequest="40"
+                />
+            
+            <Button 
+                IsVisible="False" 
+                Grid.Row="8" 
+                Grid.Column="2" 
+                Text="Tenant 16 4th Floor" 
+                Clicked="OnNavigateButtonClicked" 
+                WidthRequest="400" 
+                HeightRequest="40"
+                />
 
             <!-- Row 9 -->
-            <Button IsVisible="False" Grid.Row="9" Grid.Column="0" Text="Tenant 17 5th Floor" Clicked="OnNavigateButtonClicked" WidthRequest="400" HeightRequest="40"/>
-            <Button IsVisible="False" Grid.Row="9" Grid.Column="2" Text="Tenant 18 5th Floor" Clicked="OnNavigateButtonClicked" WidthRequest="400" HeightRequest="40"/>
+            <Button 
+                IsVisible="False" 
+                Grid.Row="9" 
+                Grid.Column="0" 
+                Text="Tenant 17 5th Floor" 
+                Clicked="OnNavigateButtonClicked" 
+                WidthRequest="400" 
+                HeightRequest="40"
+                />
+            
+            <Button 
+                IsVisible="False" 
+                Grid.Row="9" 
+                Grid.Column="2" 
+                Text="Tenant 18 5th Floor" 
+                Clicked="OnNavigateButtonClicked" 
+                WidthRequest="400" 
+                HeightRequest="40"
+                />
+            
         </Grid>
     </VerticalStackLayout>
 
