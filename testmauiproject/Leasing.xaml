@@ -1,17 +1,113 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MyMauiApp.Leasing"
-             Title="Leasing"
-             BackgroundColor="Black">
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MyMauiApp.Leasing"
+    Title="Leasing"
+    BackgroundColor="Black"
+    Padding="0,30,0,0">
 
-    <!-- StackLayout with proper attributes -->
-    <StackLayout Spacing="20" Padding="20" HorizontalOptions="Center" VerticalOptions="Start">
+    <Grid RowSpacing="20">
+        <Grid.RowDefinitions>
+            <RowDefinition
+                Height="Auto"/>
+            <RowDefinition 
+                Height="*"/>
+            <RowDefinition 
+                Height="Auto"/>
+            <RowDefinition 
+                Height="Auto"/>
+        </Grid.RowDefinitions>
+
         <!-- Header Label -->
-        <Label Text="Leasing Information"
-               TextColor="White"
-               FontSize="30"
-               FontAttributes="Bold"
-               HorizontalOptions="Center" />
-    </StackLayout>
+        <Label 
+            Grid.Row="0" 
+            Text="Leasing Information"
+            TextColor="White"
+            FontSize="60"
+            FontAttributes="Bold"
+            HorizontalOptions="Center" />
+
+        <!-- Images and Contact Info in a Grid -->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition 
+                    Width="*"/>
+                <ColumnDefinition 
+                    Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <!-- First Image and Contact Info -->
+            <StackLayout 
+                Grid.Column="0" 
+                HorizontalOptions="Center" 
+                VerticalOptions="Start">
+                <Image 
+                    Source="placeholder.jpg"
+                    Aspect="AspectFit"
+                    WidthRequest="600"
+                    HeightRequest="600"/>
+                <Label 
+                    Text="Name: John Doe&#x0a;Title: Leasing Manager&#x0a;Email: john@example.com&#x0a;Phone: 123-456-7890"
+                    FontSize="30"
+                    TextColor="White"
+                    HorizontalOptions="Center" />
+            </StackLayout>
+
+            <!-- Second Image and Contact Info -->
+            <StackLayout 
+                Grid.Column="1" 
+                HorizontalOptions="Center" 
+                VerticalOptions="Start">
+                <Image 
+                    Source="placeholder.jpg" 
+                    Aspect="AspectFit"
+                    WidthRequest="600"
+                    HeightRequest="600"/>
+                <Label 
+                    Text="Name: Jane Smith&#x0a;Title: Leasing Agent&#x0a;Email: jane@example.com&#x0a;Phone: 987-654-3210"
+                    FontSize="30"
+                    TextColor="White"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    />
+            </StackLayout>
+        </Grid>
+
+        <!-- Vacant Space Slideshow -->
+        <CarouselView Grid.Row="2">
+            <CarouselView.ItemsSource>
+                <x:Array Type="{x:Type ImageSource}">
+                    <!-- TODO: Add more images of the vacant space remove placeholders -->
+                    <FileImageSource 
+                        File="placeholder.jpg"
+                        />
+                    <FileImageSource 
+                        File="placeholder.jpg"
+                        />
+                    <FileImageSource 
+                        File="placeholder.jpg"
+                        />
+                </x:Array>
+            </CarouselView.ItemsSource>
+              <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <Image 
+                        Source="{Binding .}" 
+                        Aspect="AspectFit" />
+                </DataTemplate>
+              </CarouselView.ItemTemplate>
+            </CarouselView>
+        <!-- Home Button -->
+        <Button 
+            Grid.Row="3" 
+            Text="Home" 
+            TextColor="Black"
+            HeightRequest="60"
+            WidthRequest="80"
+            BackgroundColor="White" 
+            HorizontalOptions="Center" 
+            VerticalOptions="End" 
+            Clicked="OnHomeButtonClicked" />
+    </Grid>
 </ContentPage>

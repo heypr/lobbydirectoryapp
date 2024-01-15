@@ -9,5 +9,11 @@ namespace MyMauiApp
         {
             InitializeComponent();
         }
+
+        private void OnHomeButtonClicked(object sender, EventArgs e)
+        {
+            // Navigate to the home page
+            Navigation.PopToRootAsync();
+        }
     }
 }

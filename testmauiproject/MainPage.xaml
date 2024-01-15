@@ -106,6 +106,7 @@
             </Grid.ColumnDefinitions>
 
             <!-- Define Buttons -->
+            <!-- TODO: Make button code dynamic and stop rewriting the same code --> 
             <!-- Row 0 -->
             <Button 
                 IsVisible="True" 
