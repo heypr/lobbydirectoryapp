@@ -1,14 +1,162 @@
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MyMauiApp.Amenities"
-             Title="Amenities"
-             BackgroundColor="Black">
-    <VerticalStackLayout Spacing="20" Padding="20" HorizontalOptions="Center" VerticalOptions="Start">
-        <!-- Header Label -->
-        <Label Text="Local Amenities"
-               TextColor="White"
-               FontSize="30"
-            FontAttributes="Bold"
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MyMauiApp.Amenities"
+    Title="Amenities"
+    BackgroundColor="Black"
+    Padding="0,30,0,0">
+    <ScrollView>
+        <VerticalStackLayout 
+            Spacing="20" 
+            Padding="20" 
+            HorizontalOptions="FillAndExpand" 
+            VerticalOptions="Start">
+            <!-- Header Label -->
+            <Label 
+                Text="Local Amenities"
+                TextColor="White"
+                FontSize="60"
+                FontAttributes="Bold"
+                HorizontalOptions="Center" />
+            
+            <!-- TODO: Make the code less redundant, fix image and text placement -->
+
+            <!-- Grid for Images and Descriptions -->
+            <Grid RowSpacing="10" ColumnSpacing="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Images and Descriptions -->
+                
+                <!-- Image 1 and Description -->
+                <VerticalStackLayout 
+                    Grid.Row="0" 
+                    Grid.Column="0" 
+                    HorizontalOptions="Center" 
+                    VerticalOptions="Start">
+                    <Image 
+                        Source="placeholder.jpg" 
+                        Aspect="AspectFit" 
+                        WidthRequest="850" 
+                        HeightRequest="850"/>
+                    <Label 
+                        Text="A beautiful park with lush greenery, perfect for afternoon strolls and picnics."
+                        FontSize="40"
+                        TextColor="White" 
+                        HorizontalOptions="Center"/>
+                </VerticalStackLayout>
+
+                <!-- Image 2 and Description -->
+                <VerticalStackLayout 
+                    Grid.Row="0" 
+                    Grid.Column="1" 
+                    HorizontalOptions="Center" 
+                    VerticalOptions="Start">
+                    <Image 
+                        Source="placeholder.jpg" 
+                        Aspect="AspectFit" 
+                        WidthRequest="850" 
+                        HeightRequest="850"/>
+                    <Label 
+                        Text="State-of-the-art gym facility, open 24/7 for all your fitness needs."
+                        FontSize="40"
+                        TextColor="White" 
+                        HorizontalOptions="Center"/>
+                </VerticalStackLayout>
+
+                <!-- Image 3 and Description -->
+                <VerticalStackLayout 
+                    Grid.Row="2" 
+                    Grid.Column="0" 
+                    HorizontalOptions="Center" 
+                    VerticalOptions="Start">
+                    <Image 
+                        Source="placeholder.jpg" 
+                        Aspect="AspectFit" 
+                        WidthRequest="850" 
+                        HeightRequest="850"/>
+                    <Label 
+                        Text="Gourmet dining options nearby, offering a variety of culinary experiences."
+                        FontSize="40"
+                        TextColor="White" 
+                        HorizontalOptions="Center"/>
+                </VerticalStackLayout>
+
+                <!-- Image 4 and Description -->
+                <VerticalStackLayout 
+                    Grid.Row="2" 
+                    Grid.Column="1" 
+                    HorizontalOptions="Center" 
+                    VerticalOptions="Start">
+                    <Image 
+                        Source="placeholder.jpg" 
+                        Aspect="AspectFit" 
+                        WidthRequest="850" 
+                        HeightRequest="850"/>
+                    <Label 
+                        Text="Convenient access to public transportation for easy city commuting."
+                        FontSize="40"
+                        TextColor="White" 
+                        HorizontalOptions="Center"/>
+                </VerticalStackLayout>
+
+                <!-- Image 5 and Description -->
+                <VerticalStackLayout 
+                    Grid.Row="3" 
+                    Grid.Column="0" 
+                    HorizontalOptions="Center" 
+                    VerticalOptions="Start">
+                    <Image 
+                        Source="placeholder.jpg" 
+                        Aspect="AspectFit" 
+                        WidthRequest="850" 
+                        HeightRequest="850"/>
+                    <Label 
+                        Text="Modern public library, a quiet place for reading and research."
+                        FontSize="40"
+                        TextColor="White" 
+                        HorizontalOptions="Center"/>
+                </VerticalStackLayout>
+
+                <!-- Image 6 and Description -->
+                <VerticalStackLayout 
+                    Grid.Row="3" 
+                    Grid.Column="1" 
+                    HorizontalOptions="Center" 
+                    VerticalOptions="Start">
+                    <Image 
+                        Source="placeholder.jpg " 
+                        Aspect="AspectFit" 
+                        WidthRequest="850" 
+                        HeightRequest="850"/>
+                    <Label 
+                        Text="Vibrant nightlife with popular bars and clubs for an exciting evening out."
+                        FontSize="40"
+                        TextColor="White" 
+                        HorizontalOptions="Center"/>
+                </VerticalStackLayout>
+
+            </Grid>
+
+            <!-- Home Button -->
+            <Button 
+                Text="Home" 
+                TextColor="Black"
+                HeightRequest="60" 
+                WidthRequest="80"
+                BackgroundColor="White" 
+                HorizontalOptions="Center" 
+                VerticalOptions="End"
+                Clicked="OnHomeButtonClicked" />
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
